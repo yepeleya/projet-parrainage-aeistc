@@ -1,0 +1,111 @@
+{
+  "version": "1.0.0",
+  "branch": "feature/complete-project",
+  "build": {
+    "environment": "production",
+    "optimize": true,
+    "features": [
+      "random-attribution",
+      "responsive-design", 
+      "excel-import",
+      "pdf-export",
+      "academic-emails",
+      "operation-history"
+    ]
+  },
+  "istc": {
+    "specializations": [
+      {
+        "code": "eain",
+        "name": "EAIN",
+        "fullName": "École des Arts et Images Numérique",
+        "domain": "eain"
+      },
+      {
+        "code": "ej", 
+        "name": "EJ",
+        "fullName": "École de Journalisme",
+        "domain": "ej"
+      },
+      {
+        "code": "epa",
+        "name": "EPA", 
+        "fullName": "École Production Audiovisuelle",
+        "domain": "epa"
+      },
+      {
+        "code": "epm",
+        "name": "EPM",
+        "fullName": "École Publicité Marketing", 
+        "domain": "epm"
+      },
+      {
+        "code": "etta",
+        "name": "ETTA",
+        "fullName": "École de Télécommunication",
+        "domain": "etta"
+      }
+    ],
+    "emailDomain": "istc.ac.ma",
+    "branding": {
+      "institution": "Institut des Sciences et Techniques de la Communication",
+      "colors": {
+        "primary": "#428bca",
+        "success": "#5cb85c", 
+        "warning": "#f0ad4e",
+        "danger": "#d9534f"
+      }
+    }
+  },
+  "deployment": {
+    "github_pages": "https://yepeleya.github.io/projet-parrainage/",
+    "repository": "https://github.com/yepeleya/projet-parrainage",
+    "auto_deploy": true,
+    "build_command": "npm run build",
+    "deploy_command": "npm run deploy"
+  },
+  "performance": {
+    "responsive_breakpoints": {
+      "mobile_portrait": "≤479px",
+      "mobile_landscape": "480-767px", 
+      "tablet": "768-1023px",
+      "desktop": "1024-1439px",
+      "large_screen": "≥1440px"
+    },
+    "optimizations": [
+      "code_splitting",
+      "gzip_compression",
+      "browser_caching",
+      "image_optimization"
+    ]
+  },
+  "technical_stack": {
+    "frontend": {
+      "framework": "React 18.3.1",
+      "styling": "CSS3 (Grid + Flexbox)",
+      "icons": "Lucide React",
+      "notifications": "React Hot Toast",
+      "pdf": "jsPDF + autotable",
+      "excel": "XLSX"
+    },
+    "tools": {
+      "bundler": "Create React App",
+      "linter": "ESLint",
+      "version_control": "Git",
+      "deployment": "GitHub Pages",
+      "package_manager": "npm"
+    }
+  },
+  "algorithm": {
+    "name": "Fisher-Yates Shuffle",
+    "purpose": "Random fair attribution",
+    "complexity": "O(n)",
+    "guarantee": "mathematically_unbiased"
+  },
+  "security": {
+    "data_processing": "client_side_only",
+    "file_validation": "excel_format_check",
+    "email_generation": "academic_domain_only", 
+    "storage": "no_permanent_storage"
+  }
+}

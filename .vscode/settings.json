@@ -1,0 +1,22 @@
+{
+  "javascript.validate.enable": true,
+  "javascript.implicitProjectConfig.checkJs": false,
+  "eslint.enable": true,
+  "eslint.workingDirectories": [
+    "backend",
+    "frontend"
+  ],
+  "typescript.validate.enable": false,
+  "javascript.preferences.includePackageJsonAutoImports": "auto",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "files.associations": {
+    "*.js": "javascript"
+  },
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.suggest.autoImports": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
+}

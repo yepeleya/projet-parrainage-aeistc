@@ -1,0 +1,24 @@
+{
+  "session_id": "TEST_SESSION_123",
+  "parrains": [
+    {
+      "full_name": "Test Parrain",
+      "email": "test.parrain@institut-istic.edu",
+      "filiere": "EAIN"
+    }
+  ],
+  "filleuls": [
+    {
+      "full_name": "Test Filleul",
+      "email": "test.filleul@institut-istic.edu",
+      "filiere": "EAIN"
+    }
+  ],
+  "attributions": [
+    {
+      "parrain_name": "Test Parrain",
+      "filleul_name": "Test Filleul",
+      "filiere": "EAIN"
+    }
+  ]
+}
